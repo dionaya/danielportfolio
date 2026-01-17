@@ -2875,7 +2875,7 @@ figcaption {
   align-items: center;
   height: auto;
   margin-top: auto;
-  margin-bottom: auto;
+  margin-bottom: 10%;
   display: flex;
 }
 
