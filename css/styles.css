@@ -589,4 +589,8 @@ h4 {
   .contact {
     margin: 80px auto;
   }
+
+    .email {
+    font-size: 1.5rem;
+  }
 }
