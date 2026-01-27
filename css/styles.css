@@ -363,6 +363,10 @@ h4 {
   opacity: 1;
 }
 
+.lightbox-trigger {
+mix-blend-mode: multiply;
+}
+
 .contact {
   margin: 100px auto;
   text-align: center;
