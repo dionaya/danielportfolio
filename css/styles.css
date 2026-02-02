@@ -373,6 +373,17 @@ mix-blend-mode: multiply;
   padding: 20px;
 }
 
+.contactsite {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  text-align: center;
+}
+
 .description{
   max-width: 1160px;
   margin: 0 auto;
