@@ -27,6 +27,10 @@
 </head>
 
 <body class="body">
+
+    <img class="top-banner" src="assets/images/Banner_3.jpg" alt="">
+
+
   <div class="navbar">
     <a href="index.html" class="navbartext" onmouseover="this.style.opacity='1';"
       onmouseout="this.style.opacity='0.6';"><span class="dash">───</span> Home</a>
@@ -35,6 +39,31 @@
     <a href="index.html#gallery-tabs" class="navbartext" onmouseover="this.style.opacity='1';"
       onmouseout="this.style.opacity='0.6';"><span class="dash">───</span> Arbeiten</a>
   </div>
+
+  <div class="circle-container">
+  <svg viewBox="0 0 300 300">
+
+    <g class="rotating">
+
+      <defs>
+        <path id="circlePath"
+              d="M150,150 m-100,0
+                 a100,100 0 1,1 200,0
+                 a100,100 0 1,1 -200,0"/>
+      </defs>
+
+      <text>
+        <textPath href="#circlePath" startOffset="0%">
+         mirau.daniel.dm@gmail.com
+        </textPath>
+      </text>
+
+    </g>
+
+    <circle cx="150" cy="150" r="80" class="inner-circle"/>
+
+  </svg>
+</div>
 
     <section>
         <div class="description">
@@ -62,7 +91,7 @@
 
 <section class="grid-3x2">
   <div class="grid3">
-    <img src="assets/images/P29.jpg" class="lightbox-trigger" alt="">
+    <img src="assets/images/P52.jpeg" class="lightbox-trigger" alt="">
   </div>
 
   <div class="grid3">
@@ -70,15 +99,15 @@
   </div>
 
   <div class="grid3">
-    <img src="assets/images/P30.jpg" class="lightbox-trigger" alt="">
+    <img src="assets/images/P53.jpeg" class="lightbox-trigger" alt="">
   </div>
 
   <div class="grid3">
-    <img src="assets/images/P26.jpg" class="lightbox-trigger" alt="">
+    <img src="assets/images/P51.jpeg" class="lightbox-trigger" alt="">
   </div>
 
   <div class="grid3 item-span-2x1">
-    <img src="assets/images/P43.jpg" class="lightbox-trigger" alt="">
+    <img src="assets/images/P43.jpeg" class="lightbox-trigger" alt="">
   </div>
 </section>
 
@@ -100,6 +129,9 @@
 
 <script src="js/lightbox.js"></script>
   
+<div class="cursor-circle"></div>
+<script src="js/cursor.js"></script>
+
 </body>
 
 </html>

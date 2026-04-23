@@ -47,31 +47,66 @@
       <h1><span class="highlight">Gestaltung</span><br> mit <span class="highlight">Haltung.</span></h1>
       <h3>Grafik Design</h3>
       <a href="#gallery-tabs" class="scroll-button">Meine Arbeiten</a>
+    
+<div class="circle-container">
+  <svg viewBox="0 0 300 300">
+
+    <g class="rotating">
+
+      <defs>
+        <path id="circlePath"
+              d="M150,150 m-100,0
+                 a100,100 0 1,1 200,0
+                 a100,100 0 1,1 -200,0"/>
+      </defs>
+
+      <text>
+        <textPath href="#circlePath" startOffset="0%">
+         mirau.daniel.dm@gmail.com
+        </textPath>
+      </text>
+
+    </g>
+
+    <circle cx="150" cy="150" r="80" class="inner-circle"/>
+
+  </svg>
+</div>
+
   </section>
 
 
   <section class="aboutme">
     <img class="aboutmeimg" src="assets/images/P46.jpg" loading="lazy">
+
+    <div>
     <div class="paragraphbox">
       <h4><span class="highlight">Hallo.</span></h4>
-      <p class="paragraph">Ich habe in Deutschland meine Ausbildung zum Gestaltungstechnischen Assistenten
-        abgeschlossen und daraufhin meinen Bachelor of Arts in Graphic and Digital Design in Irland gemacht. Darüber
-        hinaus bin ich in meiner Freizeit Digital Artist.</p>
+      <p class="paragraph">In den Worten meines Dozenten:<br><br>
+"[...] Daniel beeindruckte alle mit seiner Kreativität, seinem Engagement und einem durchdachten Gestaltungsprozess, der sich hervorgehoben hat.<br>
+Seine Arbeiten zeigen eine starke konzeptionelle Herangehensweise, ein ausgeprägtes handwerkliches Feingefühl und eine echte Leidenschaft für 
+Illustration und Design."</p>
     </div>
-  </section>
 
-  <section class="awardsection">
+  <div class="awardsection reveal">
     <div class="awards">
+
       <div class="awardbox">
         <img src="assets/images/P6.png" loading="lazy" alt="" class="awardimage">
         <div class="text-block-2">Gewinner des <br>Anfachen Award VII</div>
       </div>
+
       <div class="awardbox">
         <img src="assets/images/P7.png" loading="lazy" alt="" class="awardimage">
         <div class="text-block">Technological University of the Shannon: Midlands<br>Student of the Year</div>
       </div>
+
     </div>
+  </div>
+  </div>
   </section>
+
+
 
   <h2 style="text-align: center; margin-bottom: 50px;" id="gallery-tabs"><span class="highlight">Meine Arbeiten</span></h2>
 
@@ -85,7 +120,7 @@
     <label for="tab-2">Illustration</label>
   </div>
 
-  <div class="tab-content">
+  <div class="tab-content reveal">
 
     <div class="tab-panel panel-1">
       <div class="image-columns">
@@ -115,12 +150,22 @@
           </div>
 
           <div class="grid-item portrait">
+            <a href="waddl.html">
+            <img src="assets/images/P56.jpeg" alt="">
+            <div class="hover-caption"><span>waddl</span></div>
+          </a>
+          </div>
+
+         <!-- 
+          <div class="grid-item square">
             <a href="character.html">
             <img src="assets/images/P22.jpg" alt="">
             <div class="hover-caption"><span>Character Design</span></div>
           </a>
           </div>
+          -->
         </div>
+        
 
         <div class="column">
           <div class="grid-item portrait">
@@ -131,8 +176,8 @@
           </div>
 
           <div class="grid-item square">
-            <a href="nsec.html">
-            <img src="assets/images/P41.jpg" alt="">
+            <a href="character.html">
+            <img src="assets/images/P22.jpg" alt="">
             <div class="hover-caption"><span>National Space Exploration Center</span></div>
           </a>
           </div>
@@ -196,7 +241,10 @@
 
 <script src="js/lightbox.js"></script>
 
+<div class="cursor-circle"></div>
+<script src="js/cursor.js"></script>
 
+<script src="js/reveal.js"></script>
 </body>
 
 </html>
